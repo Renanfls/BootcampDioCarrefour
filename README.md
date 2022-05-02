@@ -1,2 +1,2 @@
-# BootcampDioCarrefour
-Repositório de Desafios de projetos feitos no Bootcamp
+# Bootcamp Dio Carrefour
+Repositório para os Desafios de Projetos feitos no Bootcamp
