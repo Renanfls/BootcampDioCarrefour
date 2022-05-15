@@ -18,7 +18,7 @@ O a:hover do exemplo significa que a âncora também terá essa aparência quand
 
 ## **ID x Classe**
 
-No exemplo anterior criamos uma regra que altera um elemento HTML diretamente, mas isso significa que todos os elementos \<a> ficarão com aquela aparência, e normalmente temos sites mais complexos que precisam de várias regras diferentes para elementos iguais.
+No exemplo anterior criamos uma regra que altera um elemento HTML diretamente, mas isso significa que todos os elementos `<a>` ficarão com aquela aparência, e normalmente temos sites mais complexos que precisam de várias regras diferentes para elementos iguais.
 
 Para ficar mais tangível vamos relembrar um pouco o site que começamos a fazer no módulo passado, ele tinha vários elementos header, mas não vamos querer que o header principal tenha a mesma formatação que o header de uma postagem, é aí que entram os IDs e Classes.
 
