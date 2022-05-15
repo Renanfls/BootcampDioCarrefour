@@ -1,0 +1,5 @@
+- painel do xampp
+- config do apache
+- ctrl + f e procurar por 'documentroot'
+- alterar o caminho até a pasta desejada
+- ctrl + s

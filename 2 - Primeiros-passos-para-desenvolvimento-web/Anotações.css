@@ -1,0 +1,170 @@
+/* Padding e Margin 
+---------------------------------------------------------------------------------------------------------*/
+/* Formas de serem definidas */
+.teste {
+    padding: 10px;
+}
+.teste {
+    padding: 10px 5px;
+}
+.teste {
+    padding: 15px 10px 5px 0;
+}
+.teste {
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 0;
+}
+
+
+/* Background 
+---------------------------------------------------------------------------------------------------------*/
+/* Formas de serem definidas */
+.teste {
+    background-color: green;
+    background-image: url("");
+    background-position: top;
+}
+.teste {
+    background-color: green;
+    background-color: #008800;
+    background: #008800;
+}
+
+
+/* Border 
+---------------------------------------------------------------------------------------------------------*/
+/* Formas de serem definidas */
+.teste {
+    border: 3px solid blue;
+    border-top: 2px dotted green;
+    border-right: 4px dashed pink;
+}
+.teste {
+    border-top: 2px dotted green;
+    border-right: 4px dashed pink;
+    border-bottom: 1px solid purple;
+    border-left: 4px dotted cyan;
+}
+.teste {
+    border: 3px solid #505050;
+}
+.teste {
+    border-width: 3px;
+    border-color: #505050;
+    border-style: solid;
+}
+.teste {
+    border-top-width: 3px;
+    border-top-color: blue;
+    border-top-style: solid;
+}
+
+/* Border-radius 
+---------------------------------------------------------------------------------------------------------*/
+/* Formas de serem definidas */
+.teste {
+    border-radius: 10px;
+}
+.teste {
+    border-radius: 50%;
+}
+.teste {
+    border-radius: 10% 20%;
+}
+.teste {
+    border-radius: 10% 20% 15% 22%;
+}
+
+
+/* font-family 
+---------------------------------------------------------------------------------------------------------*/
+#teste {
+    font-family: Verdana;
+}
+.teste {
+    font-family: Verdana, Arial;
+}
+
+
+/* font-size 
+---------------------------------------------------------------------------------------------------------*/
+.teste {
+    font-size: 18px;
+}
+
+
+/* font-style 
+---------------------------------------------------------------------------------------------------------*/
+#teste {
+    font-style: normal;
+}
+.teste {
+    font-style: italic;
+}
+
+
+/* font-weight 
+---------------------------------------------------------------------------------------------------------*/
+#teste {
+    font-weight: normal;
+}
+.teste {
+    font-weight: bold;
+}
+
+
+/* text-transform 
+---------------------------------------------------------------------------------------------------------*/
+#teste {
+    /* Todas as letras maiusculas */
+    text-transform: uppercase;
+}
+.teste {
+    /* Todas as letras minusculas */
+    text-transform: lowercase;
+}
+.teste {
+    /* Primeiras letras em maiusculas */
+    text-transform: capitalize;
+}
+
+
+/* text-decoration
+---------------------------------------------------------------------------------------------------------*/
+.teste {
+    /* Linha de baixo do texto */
+    text-decoration: underline;
+}
+.teste {
+    /*  Linha em cima do texto */
+    text-decoration: overline;
+}
+.teste {
+    /* Linha no meio do texto */
+    text-decoration: line-through;
+}
+
+
+/* list-style-type
+---------------------------------------------------------------------------------------------------------*/
+ul {
+    /* Altera pra quadrado */
+    list-style-type: square;
+}
+ol {
+    /* Altera pra algarismo romando maiusculo */
+    list-style-type: upper-roman;
+}
+ul {
+    /* Altera para um simbolo */
+    list-style-type: "\1F44D";
+}
+
+
+/* list-style-image
+---------------------------------------------------------------------------------------------------------*/
+ul {
+    list-style-image: url("");
+}

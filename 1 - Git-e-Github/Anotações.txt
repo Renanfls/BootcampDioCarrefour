@@ -1,0 +1,87 @@
+Comandos:
+
+dir (exibe o que tem na pasta) / ls (no linux)
+cd / (navega entre as pastas)
+cd .. (retrocede um nível)
+cls (limpa o terminal) / clear (no linux) (Ctrl + l)
+TAB (auto completa)
+mkdir (cria pastas)
+del (deleta um arquivo)
+
+rmdir (remove pasta)
+  Ex: rmdir nomepasta /S /Q   OU   rm-rf (no linux)
+
+  echo == escreve
+  > == dentro
+echo hello > hello.txt (escreve 'hello' dentro de um arquivo de texto)
+
+Sha1 (Criptografia)
+openss1 sha1 + arquivo
+
+Retornando sha1 da string:
+echo 'conteudo' | git hash-object --stdin ('--stdin' indica que espera receber um arquivo)
+
+----------------------------------------------------------------------------------------------
+
+Comandos Git Bash
+
+clear (limpa o terminal)
+ls (lista o conteudo da pasta) Ctrl + L
+pwd (Mostra o local atual)
+git clone + caminho clonado do repositório
+git init (inicia um novo repositorio)
+git status
+git add -a
+git add *
+git commit -m "Descrição do commit"
+
+ls -a ('-a' flag que identifica arquivos ocultos)
+
+-----------------------------------------------------------------------------------
+
+Configurando email e usuário padrão no git e subindo atulaizações para a nuvem(GitHub)
+
+Comandos no Git Bash
+
+1- mkdir livro-receitas
+2- git init
+3- git config --global user.email "roger01@gmail.com"
+4- git config --global user.name Roger01
+
+
+git config --list (lista todas as configs)
+Tecla G para sair
+
+Caso queira alterar alguma config:
+git config --global --unset user.email
+git config --global --unset user.name
+
+
+5- git add *
+6- git commit -m "Commit inicial"
+7- git status
+8- mkdir receitas
+9- mv lasanha.md ./receitas/
+10- git status
+11- git add lasanha.md receitas/
+12- git status
+13- git commit -m "cria pasta receitas, move arquivo para receitas"
+14- echo > README.md
+15- git status
+16- git add *
+17- git commit -m "adiciona index"
+
+Subindo para o GitHub
+
+git remote add origin + https do repositório
+
+git remote -v (lista os repositorios remotos que tem cadastrado)
+
+git push origin master   OU   git push origin main
+
+git pull origin master   OU   git pull origin main (Pega 2 arquivos, um que já consta no GitHub e o novo com novas alterações, junta eles e vê o que mundou entre eles, logo em seguida pede para o autor fazer as alterações se verificar que é relevante)
+
+-----------------------------------------------------------------------------------
+
+
+
