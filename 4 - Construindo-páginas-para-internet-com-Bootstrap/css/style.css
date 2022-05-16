@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+body {
+    font-family: Bai Jamjuree, sans-serif;
+    font-size: 16px;
+}
+
+p {
+    margin-bottom: 0;
+    padding-bottom: 3rem;
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-default {
+    background-color: #000000;
+    border-radius: 0;
+    padding: 1.5rem;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #c0c0c0;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #fdfdfd;
+}
+
+.navbar-default,
+.navbar-toggle {
+    border: none;
+}
+
+.navbar-header img {
+    height: 5rem;
+}
+
+#banner {
+    background: linear-gradient(180deg, transparent, #000000 85%),  url(../img/banner.jpg) top / cover no-repeat;
+    height: 25rem;
+}
+
+.about-us > .col-lg-4, 
+.about-us--title {
+    background: #fa962a;
+}
+
+.about-us--title,
+.title--partners,
+.services--title {
+    font-weight: 600;
+    margin: 0;
+    padding: 4rem;
+}
+
+.about-us img {
+    height: 20rem;
+    width: 20rem;
+}
+
+.about-us p {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.partners {
+    background: linear-gradient(180deg, transparent, rgba(0,0,0,0.3) 90%), url(../img/01-banner.jpg) center / cover no-repeat;
+    clear: left;
+    padding-bottom: 10rem;
+}
+
+.partners img {
+    margin-top: 4.25rem;
+}
+
+.about-us,
+.partners,
+.services {
+    color: #fdfdfd;
+}
+
+.services {
+    background: #000000;
+}
+
+.container img {
+    padding: 4rem;
+}
+
+.img-services{
+    border-radius: 5rem;
+
+}
+
+.services p {
+    margin: 0 auto;
+}
+
+.bg-footer {
+    background-color: #fdfdfd;
+    padding-top: 3rem;
+}
+
+@media screen and (min-width: 0) {
+    .about-us > .col-lg-4 {
+        padding: 3rem 0;
+    }
+
+    .partners img,
+    .services img {
+        width: 100%;
+    }
+
+    .services p {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container-fluid {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .partners img,
+    .services img {
+        width: 70%;
+        max-width: 474px;
+    }
+
+    .services p {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .partners img,
+    .services img {
+        width: 100%;
+    }
+}
