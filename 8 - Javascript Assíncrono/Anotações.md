@@ -65,11 +65,11 @@ Você consegue acessá-la por meio de URLs.
 
 Consumindo APIs
 
-
+![fetch](https://user-images.githubusercontent.com/78867248/168930522-6c113273-454b-43b3-8f2e-d141690e4795.png)
 
 Operações no banco (POST, GET, PUT, DELETE, etc)
 
-
+![Operações no banco](https://user-images.githubusercontent.com/78867248/168930538-081e59f2-b15e-4626-ae91-7b7e504d69d9.png)
 
 ## **Atividade: API "catAPI"**
 
