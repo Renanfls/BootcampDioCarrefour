@@ -25,14 +25,14 @@ Adicionar, ler e deletar
 
 ## Estrutura
 
-
+![estrutura-set](https://user-images.githubusercontent.com/78867248/168706110-05edfaee-56d2-4e80-8184-2482a552f9d0.png)
 
 Sets são estruturas que armazenam apenas **valores únicos.**
 
 ## Métodos
 Adicionar, consultar e deletar
 
-
+![metodos-set](https://user-images.githubusercontent.com/78867248/168706119-5cadb978-a5ea-4d52-945f-60260cfea5fd.png)
 
 ## Set vs Array
 - Possui valores únicos;
