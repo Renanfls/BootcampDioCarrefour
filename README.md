@@ -1,2 +1,2 @@
 # Bootcamp Dio Carrefour
-Repositório para os Desafios de Projetos feitos no Bootcamp
+Repositório destinado à Anotações, Exercícios e Desafios de Projetos feitos no Bootcamp.
