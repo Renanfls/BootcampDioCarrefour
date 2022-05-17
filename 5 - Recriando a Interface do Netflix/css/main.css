@@ -1,0 +1,98 @@
+:root {
+    --vermelho: #E50914;
+    --preta: #141414;
+
+    --arial: 'Arial', Times, serif;
+    --arial-black: 'Arial Black', Times;
+}
+
+/* Elementos Base */
+body {
+    background: var(--preta);
+    color: white;
+    font-family: var(--arial);
+    margin: 0;
+}
+
+header .container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .logo {
+    color: var(--vermelho);
+    font-family: var(--arial-black);
+    font-size: 2.5rem;
+    margin-left: .0625rem;
+}
+
+header nav a {
+    color: #AAA;
+    margin-right: .625rem;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+/* Filme Principal */
+.filme-principal {
+    align-items: flex-start;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url('../img/capa-batman.jpg') center / cover;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    height: 35rem;
+    justify-content: center;
+}
+
+.container {
+    margin-left: 1.25rem;
+}
+
+.filme-principal .container {
+    width: 70%;
+}
+
+.filme-principal .titulo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.5rem;
+    margin-top: 15%;
+}
+
+.filme-principal .descricao {
+    margin-bottom: 3rem;
+    margin-top: .625rem;
+}
+
+.botao {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: .75rem;
+    margin-right: .9375rem;
+    padding: .9375rem 1.875rem;
+    transition: .3s ease all;
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+}
+
+.botao i {
+    margin-right: .5rem;
+}
+
+.box-filme {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.carrosel-filmes {
+    margin-top: .3125rem;
+}
