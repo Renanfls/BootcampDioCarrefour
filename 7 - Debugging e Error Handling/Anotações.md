@@ -24,11 +24,11 @@ Erros relacionados ao Document Object Model (DOM).
 
 `throw`
 
-Apresenta um erro.
+Lança um erro.
 
 `return`
 
-Apenas retonar uma string.
+Retorna um valor.
 
 #
 ### **Implementação da declaração try/catch**
