@@ -49,3 +49,31 @@ Para o seu código até que a promise seja resolvida e depois que resolvida o c�
 **Utilizando try...catch**
 
 ![async-await-utilizando-try catch](https://user-images.githubusercontent.com/78867248/168916621-5ec3b090-7617-40be-8841-f1ea22c3db94.png)
+
+
+## **APIs (Application Programming Interface)**
+
+Uma API é uma forma de intermediar os resultados do back-end com o que é apresentado no front-end.
+
+Você consegue acessá-la por meio de URLs.
+
+**JSON:** JavaScript Object Notation
+
+É muito comum que APIs retornem seus dados no formato `.json`, portanto precisamos tratar esses dados quando os recebemos.
+
+## **Método fetch**
+
+Consumindo APIs
+
+
+
+Operações no banco (POST, GET, PUT, DELETE, etc)
+
+
+
+## **Atividade: API "catAPI"**
+
+Nesta atividade, vamos criar uma página que carrega fotos aleatórias de gatinhos sempre que clicamos em um botão.
+
+1. Utilize a API `https://thatcopy.pw/catapi/rest` para fazer as chamadas com o método `fetch()`;
+2. Utilize seus conhecimentos na manipulação do DOM para criar a imagem e ativar o evento de clique do botão!
