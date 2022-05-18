@@ -36,6 +36,10 @@ Funções assíncronas precisam dessas duas palavras chave.
 
 ![Async-await](https://user-images.githubusercontent.com/78867248/168916597-92ff230c-f9ca-4f4c-bafe-44074222a2a3.png)
 
+Funções assíncronas também retornam Promises!
+
+![Captura de Tela (560)](https://user-images.githubusercontent.com/78867248/168941967-183c7de9-6a8a-4393-b7aa-3165f35f0301.png)
+
 `async function`
 
 Define que uma function é assíncrona.
@@ -58,6 +62,8 @@ Uma API é uma forma de intermediar os resultados do back-end com o que é apres
 Você consegue acessá-la por meio de URLs.
 
 **JSON:** JavaScript Object Notation
+
+![Captura de Tela (562)](https://user-images.githubusercontent.com/78867248/168942243-346b7bd7-b442-4581-86e2-f73e81f4843b.png)
 
 É muito comum que APIs retornem seus dados no formato `.json`, portanto precisamos tratar esses dados quando os recebemos.
 
