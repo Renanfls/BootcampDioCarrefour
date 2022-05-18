@@ -56,8 +56,15 @@ Todos os objetos Javascript herdam propriedades e métodos de um prototype.
 
 O `Object.prototype` está no topo desta cadeia.
 
+![Captura de Tela (531)](https://user-images.githubusercontent.com/78867248/168934095-941907d1-bee8-4286-a660-45add1df251e.png)
+
 ### **Classes**
 
 Classes no Javascript não existem nativamente, são definidadas como **açúcar sintático(Syntatic sugar):** uma sintaxe feita para facilitar a escrita.
 
+![Captura de Tela (529)](https://user-images.githubusercontent.com/78867248/168934131-7bd5ea07-5d15-483e-9912-651e2f89fd0a.png)
+
 Todas as classes são objetos e a herança se dá por protótipos.
+
+![Captura de Tela (530)](https://user-images.githubusercontent.com/78867248/168934155-0f47f16c-b8b5-4a90-84d9-42c26ad232a8.png)
+
