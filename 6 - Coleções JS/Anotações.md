@@ -4,6 +4,8 @@
 
 ![estrutura-map](https://user-images.githubusercontent.com/78867248/168704450-31132ea0-02d8-46de-a190-7af069f903f6.png)
 
+![Captura de Tela (533)](https://user-images.githubusercontent.com/78867248/168938966-38320212-952f-4c84-9ec0-b78a477bc13d.png)
+
 ### Características:
 - Uma coleção de arrays no formato [chave, valor];
 - Pode iterado por um loop for...of
@@ -26,6 +28,8 @@ Adicionar, ler e deletar
 ## Estrutura
 
 ![estrutura-set](https://user-images.githubusercontent.com/78867248/168706110-05edfaee-56d2-4e80-8184-2482a552f9d0.png)
+
+![Captura de Tela (535)](https://user-images.githubusercontent.com/78867248/168939197-e88b5901-87a0-47f4-853f-89190281e1e9.png)
 
 Sets são estruturas que armazenam apenas **valores únicos.**
 
