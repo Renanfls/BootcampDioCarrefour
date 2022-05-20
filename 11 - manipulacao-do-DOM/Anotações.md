@@ -83,3 +83,11 @@ Diretamente no javascript, cria um evento que vai ser acionado no momento em que
 Especifica a função a ser chamada diretamente no elemento HTML.
 
 ![Captura de Tela (591)](https://user-images.githubusercontent.com/78867248/169235955-b55eb60f-e4cd-40ae-a868-ce0ca4de04d8.png)
+
+## Atividade: Light Mode/Dark Mode
+
+1. Crie uma estrutura básica de projeto front-end (HTML, CSS e JS)
+2. Copie o HTML e o CSS deste repositório
+3. Crie um arquivo chamado `scripts.js` na sua pasta `assets/js`
+4. Selecione os elementos: `h1`, `button`, `footer` e `body`
+5. Se os elementos possuirem a classe `dark-mode`, modifique seus estilos. Caso contrário, volte os estilos para o original
